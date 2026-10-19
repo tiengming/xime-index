@@ -25,7 +25,7 @@ layouts/index.yaml            # 键盘布局子索引（自动生成）
 
 ### 步骤 1：创建方案文件
 
-在 `rimes/` 下新建 `<id>.yaml` 文件：
+在 `src/rimes/` 下新建 `<id>.yaml` 文件：
 
 ```yaml
 # rimes/my_schema.yaml
