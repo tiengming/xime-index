@@ -58,11 +58,6 @@ Xime 输入法的插件、方案、模型与键盘布局市场索引。
 
 ### 插件 v2 (Plugins v2，JS/QuickJS，宿主 >=3.0.0)
 
-新版插件系统（TypeScript/QuickJS，`.xipk` 内含 `manifest.json` + 编译产物 `main.js`）使用独立索引
-`plugins/v2/index.yaml`（`index_version: 2`），源文件放在 `src/plugins/v2/`；旧版插件的源文件归档在
-`src/plugins/v1/`，发布到旧版稳定 URL `plugins/index.yaml`。索引条目在旧扁平结构上追加了新插件系统的元数据
-（`icon` / `activation` / `minHostVersion` / `platforms` / `capabilities` / `network`），
-旧版 App 继续读取 `plugins/index.yaml`，互不影响。
 
 | ID | 名称 | 类型 | 大小 | 最低 App 版本 |
 |---|---|---|---|---|
