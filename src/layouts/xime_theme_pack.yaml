@@ -8,11 +8,12 @@ repo: https://github.com/tiengming/xime_flypy_proxy
 license: GPL-3.0
 appVersion: ">=3.0.0"
 requiresSchemes: []
-# 截图（待补，1~5 张）：竖屏键盘区 ≥720px、比例 9:16、单张 ≤500KB，放入分支 images/ 后取消注释；
-# URL 固定到 tag（勿用分支名）。示例：
-# screenshots:
-#   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img1.jpg
-#   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img2.jpg
+screenshots:
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.1.0/images/img1.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.1.0/images/img2.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.1.0/images/img3.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.1.0/images/img4.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.1.0/images/img5.jpg
 currentVersion: "1.1.0"
 versions:
   - version: "1.1.0"
