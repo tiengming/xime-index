@@ -1,12 +1,12 @@
 # Xime 键盘布局子索引
 # ⚠️ 此文件由 scripts/ci-update.py 自动生成，请勿手动编辑
 index_version: 1
-updated_at: '2026-10-19'
+updated_at: '2026-10-21'
 layouts:
 - id: comma_period
   name: 逗号句号分开布局
   author: Kor1
-  description: 在标准全键盘上方新增一行数字，中文键盘长按出符号、英文键盘直接上屏。
+  description: 逗号句号分开在空格键两边
   tags:
   - 布局
   - 全键盘
@@ -149,6 +149,58 @@ layouts:
     - url: https://github.com/cz-archive/wubi_compact/releases/download/1.0.1/xime.custom.yaml
       sha256: 30684dc7767d5a654031f3c38dfb7b3973a70140e2fd1012468c59b18dbe10a9
       size: 10.4 KB
+- id: xime_26key_enhance
+  name: 26键多功能布局
+  author: C.C.
+  description: 数字与字母上滑输入常用标点与符号,禁用空格语音输入,上/下滑均可触发 A/全选、S/重复上次输入、Z/撤销、X/剪切、C/复制、V/粘贴、B/换行、N/行首、M/行尾
+  tags:
+  - 资源加速
+  - 全键盘
+  - 全功能键盘
+  repo: https://github.com/MajoSissi/xime-26key-enhance
+  homepage: https://github.com/MajoSissi/xime-26key-enhance
+  license: GPL-3.0
+  appVersion: '>=3.0.0'
+  requiresSchemes: []
+  screenshots:
+  - https://cdn.jsdelivr.net/gh/MajoSissi/xime-26key-enhance@3b2e27b8be98e47af48d4ae79e7f4e5d25ae5f21/images/0.jpg
+  - https://cdn.jsdelivr.net/gh/MajoSissi/xime-26key-enhance@3b2e27b8be98e47af48d4ae79e7f4e5d25ae5f21/images/1.jpg
+  currentVersion: 1.0.0
+  versions:
+  - version: 1.0.0
+    date: '2026-10-19'
+    changelog: 首版
+    downloadUrl:
+    - url: https://github.com/MajoSissi/xime-26key-enhance/releases/download/1.0.0/xime.custom.yaml
+      sha256: 3767bbeeab6d690b21a8eae55e6173740fcc42ef4b97b798ce95db884da846ff
+      size: 10.2 KB
+- id: xime_custom_themes
+  name: xime 多主题
+  author: tiengming
+  description: 为 Xime 键盘提供五套主题配色：星野夜航、Notion 极简、Claude 暖砂、Apple 原生、Material You 动态。一键切换，适配
+    Xime 3.0。
+  tags:
+  - 配色
+  repo: https://github.com/tiengming/xime_flypy_proxy
+  license: GPL-3.0
+  appVersion: '>=3.0.0'
+  requiresSchemes: []
+  screenshots:
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme-1.0.0/images/img1.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme-1.0.0/images/img2.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme-1.0.0/images/img3.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme-1.0.0/images/img4.jpg
+  - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme-1.0.0/images/img5.jpg
+  currentVersion: 1.0.0
+  versions:
+  - version: 1.0.0
+    date: '2026-10-19'
+    changelog: 初始版本，包含五套主题配色（星野夜航 / Notion 极简 / Claude 暖砂 / Apple 原生 / Material You
+      动态）。
+    downloadUrl:
+    - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_theme-1.0.0/xime.custom.yaml
+      sha256: aa3008cb63a1c2ee63df5bf30fb9d427433b0b62967a27c6a5fed55c663347d1
+      size: 3.5 KB
 - id: xime_flypy_proxy
   name: 小鹤双拼多功能配置
   author: tiengming
@@ -199,3 +251,27 @@ layouts:
     - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_index_net-v1.0.1/xime.custom.yaml
       sha256: 5d5b766d4223c868c2f52d7a63b40f6115f80136dce45c48ac6f7ab8fb859e81
       size: 351 B
+- id: xime_layout_romaji
+  name: 日语罗马音键盘
+  author: 抹露茶柒
+  description: 标准 QWERTY 26 个字母键 + 1 个长音键（-），献给日语罗马音输入。键面不放假名助记，上滑出数字与日文常用标点。
+  tags:
+  - 布局
+  - 全键盘
+  - 输入法适配
+  repo: https://github.com/MoruTeaven/xime-layout-romaji
+  homepage: https://github.com/MoruTeaven/xime-layout-romaji
+  license: Apache-2.0
+  appVersion: '>=3.0.0'
+  requiresSchemes: []
+  screenshots:
+  - https://cdn.jsdelivr.net/gh/MoruTeaven/xime-layout-romaji@1.0.0/images/keyboard.png
+  currentVersion: 1.0.0
+  versions:
+  - version: 1.0.0
+    date: '2026-10-21'
+    changelog: 首个版本：标准 QWERTY 26 键 + 第二行长音键，上滑数字与日文常用标点。
+    downloadUrl:
+    - url: https://github.com/MoruTeaven/xime-layout-romaji/releases/download/1.0.0/xime.custom.yaml
+      sha256: 262ff763e1604e1a5175cf3dcbc524ed6e3a7d346422111b2f170ffb009a8b0b
+      size: 8.6 KB

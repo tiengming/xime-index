@@ -18,5 +18,5 @@ versions:
   - url: https://github.com/ximeiorg/rime-stroke/releases/download/0.2.0/rime-stroke-0.2.0.zip
     sha256: 914c3b8ba1e765f1fe9fe869b424006d9c83e4fa4f9b55a9fdc94623b4f23943
     size: 2.84 MB
-    sizeBytes: 284000
+    sizeBytes: 2840000
 

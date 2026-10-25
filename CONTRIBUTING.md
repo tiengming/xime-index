@@ -2,6 +2,8 @@
 
 通过 PR 添加或更新文件即可上架方案或插件。
 
+> PR 只能修改 src 目录下的内容。根目录的 layouts、plugins、rimes 为 CI 自动生成，不需要修改。
+
 ## 目录结构
 
 ```
@@ -23,7 +25,7 @@ layouts/index.yaml            # 键盘布局子索引（自动生成）
 
 ### 步骤 1：创建方案文件
 
-在 `rimes/` 下新建 `<id>.yaml` 文件：
+在 `src/rimes/` 下新建 `<id>.yaml` 文件：
 
 ```yaml
 # rimes/my_schema.yaml

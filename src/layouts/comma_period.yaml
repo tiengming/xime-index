@@ -1,7 +1,7 @@
 id: comma_period
 name: 逗号句号分开布局
 author: Kor1
-description: 在标准全键盘上方新增一行数字，中文键盘长按出符号、英文键盘直接上屏。
+description: 逗号句号分开在空格键两边
 tags:
   - 布局
   - 全键盘
