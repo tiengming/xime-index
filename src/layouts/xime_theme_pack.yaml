@@ -1,7 +1,7 @@
 id: xime_theme_pack
 name: "xime 主题包"
 author: tiengming
-description: 11 套主题大合集，合并一份配置应用内随意切换、互不顶替：Material You 家族 ×4（紫罗兰/暖玫瑰/海蓝/松绿）、渐变家族 ×5（极光/暮霞/薄荷/樱粉/深海）、图片背景 ×2（银河漫游/晨雾云海）；内嵌霞鹜文楷字体（SIL OFL 1.1）与三张原创背景图。适配 Xime 3.0。
+description: 15 套主题大合集，合并一份配置应用内随意切换、互不顶替：Material You 家族 ×4（紫罗兰/暖玫瑰/海蓝/松绿）、渐变家族 ×5（极光/暮霞/薄荷/樱粉/深海）、图片背景场景 ×6（银河/晨雾/远山/樱吹雪/星月/海平线，各含暗色变体）；键面 Maple Mono NL CN + 候选霞鹜文楷（均 SIL OFL 1.1），11 张原创程序化背景图。适配 Xime 3.0。
 tags:
   - 配色
 repo: https://github.com/tiengming/xime_flypy_proxy
@@ -13,8 +13,15 @@ requiresSchemes: []
 # screenshots:
 #   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img1.jpg
 #   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img2.jpg
-currentVersion: "1.0.0"
+currentVersion: "1.1.0"
 versions:
+  - version: "1.1.0"
+    date: "2026-10-25"
+    changelog: 关闭按键阴影（修复半透明键面下投影轮廓残缺）；图片背景家族扩至 6 套场景（新增远山拾光/樱吹雪/星月童话/落日海平线）；键面字体改用 Maple Mono NL CN（圆角等宽含 CJK、无连字，SIL OFL 1.1），候选/注释保持霞鹜文楷。
+    downloadUrl:
+      - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_theme_pack-1.1.0/xime_theme_pack.zip
+        sha256: ""   # CI 自动补全
+        size: "21 MB"
   - version: "1.0.0"
     date: "2026-10-25"
     changelog: 首个版本：11 套配色（M3 家族×4 / 渐变×5 / 图片背景×2）+ 霞鹜文楷字体 + 3 张原创程序化生成背景图，zip 交付（约 24 MB，含两款全量中文字体）。
