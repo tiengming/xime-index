@@ -1,0 +1,25 @@
+id: xime_theme_pack
+name: "xime 主题包"
+author: tiengming
+description: 11 套主题大合集，合并一份配置应用内随意切换、互不顶替：Material You 家族 ×4（紫罗兰/暖玫瑰/海蓝/松绿）、渐变家族 ×5（极光/暮霞/薄荷/樱粉/深海）、图片背景 ×2（银河漫游/晨雾云海）；内嵌霞鹜文楷字体（SIL OFL 1.1）与三张原创背景图。适配 Xime 3.0。
+tags:
+  - 配色
+repo: https://github.com/tiengming/xime_flypy_proxy
+license: GPL-3.0
+appVersion: ">=3.0.0"
+requiresSchemes: []
+# 截图（待补，1~5 张）：竖屏键盘区 ≥720px、比例 9:16、单张 ≤500KB，放入分支 images/ 后取消注释；
+# URL 固定到 tag（勿用分支名）。示例：
+# screenshots:
+#   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img1.jpg
+#   - https://cdn.jsdelivr.net/gh/tiengming/xime_flypy_proxy@xime_theme_pack-1.0.0/images/img2.jpg
+currentVersion: "1.0.0"
+versions:
+  - version: "1.0.0"
+    date: "2026-10-25"
+    changelog: 首个版本：11 套配色（M3 家族×4 / 渐变×5 / 图片背景×2）+ 霞鹜文楷字体 + 3 张原创程序化生成背景图，zip 交付（约 24 MB，含两款全量中文字体）。
+    # zip 由作者仓库 Release 工作流自动打包上传；sha256/size 留空由 CI 自动补全。
+    downloadUrl:
+      - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_theme_pack-1.0.0/xime_theme_pack.zip
+        sha256: ""
+        size: ""
