@@ -18,16 +18,8 @@ currentVersion: "1.1.0"
 versions:
   - version: "1.1.0"
     date: "2026-10-25"
-    changelog: 关闭按键阴影（修复半透明键面下投影轮廓残缺）；图片背景家族扩至 6 套场景（新增远山拾光/樱吹雪/星月童话/落日海平线）；键面字体改用 Maple Mono NL CN（圆角等宽含 CJK、无连字，SIL OFL 1.1），候选/注释保持霞鹜文楷。
+    changelog: 首个上架版本：15 套配色（Material You 家族×4 / 渐变×5 / 图片场景×6，各含暗色变体）；键面 Maple Mono NL CN（圆角等宽含 CJK、无连字）+ 候选霞鹜文楷（均 SIL OFL 1.1）；11 张原创程序化背景图；玻璃质感无阴影设计。
     downloadUrl:
       - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_theme_pack-1.1.0/xime_theme_pack.zip
-        sha256: ""   # CI 自动补全
-        size: "21 MB"
-  - version: "1.0.0"
-    date: "2026-10-25"
-    changelog: 首个版本：11 套配色（M3 家族×4 / 渐变×5 / 图片背景×2）+ 霞鹜文楷字体 + 3 张原创程序化生成背景图，zip 交付（约 24 MB，含两款全量中文字体）。
-    # zip 由作者仓库 Release 工作流自动打包上传；sha256/size 留空由 CI 自动补全。
-    downloadUrl:
-      - url: https://github.com/tiengming/xime_flypy_proxy/releases/download/xime_theme_pack-1.0.0/xime_theme_pack.zip
-        sha256: ""
-        size: ""
+        sha256: "bebe0c23bfa1f8ee2defcd6ae156dfc67570e73acfaa84607a1b7b0d6400fee2"
+        size: "20.2 MB"
